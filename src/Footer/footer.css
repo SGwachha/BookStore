@@ -1,0 +1,33 @@
+.mainfooter {
+    background-color: rgb(188, 188, 248);
+    height: 100%;
+    font-size: 30px;
+    position: relative;
+    bottom: 0;
+    margin-top: -15px;
+}
+
+.heyFooter{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    width: 100%;
+    margin-top: 15px;
+}
+
+.text-row{
+    justify-content: flex-start;
+    /* align-items: center; */
+    /* text-align: right; */
+    padding: 0 0;
+    width: 100%;
+    margin-right: 50px;
+}
+
+.txt{
+    text-align: left;
+}
+
+.flink{
+    text-align: right;
+}

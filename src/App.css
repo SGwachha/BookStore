@@ -1,0 +1,173 @@
+/*Navbar*/
+.logo {
+  width: 150px;
+}
+
+.navbar {
+  background-color: lightgray;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.a :hover {
+  text-decoration: underline;
+  size: 1px solid orange;
+}
+
+.btn {
+  margin-right: 20px;
+}
+
+/*links*/
+nav a.nav-link {
+  font-size: 15px;
+  cursor: pointer;
+}
+
+nav ul {
+  margin-left: auto;
+}
+
+nav ul li {
+  text-transform: uppercase;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar-nav>li>a {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+}
+
+.navbar-brand {
+  max-width: 200px;
+  padding: 0px;
+  height: 20px;
+}
+
+/*header*/
+.header-wrapper {
+  position: relative;
+  background: url(../src/images/logo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: lightgray;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info h1 {
+  text-transform: uppercase;
+}
+
+.title-header {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.search {
+  margin-left: 1200px;
+}
+
+/* text */
+
+.mainContainer {
+  flex: 1;
+  background-color: lightgray;
+}
+
+.container {
+  background-image: url(../src/images/library.jpg);
+  size: cover;
+  height: 800px;
+  margin-top: -15px;
+}
+
+.p {
+  padding: 600px 0;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.btn-1 {
+  height: 40px;
+  background-color: rgb(98, 249, 156);
+}
+
+/* Arrival */
+.row-sec {
+  margin-top: 10px;
+  border: 3px solid black;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row-top {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.title {
+  float: left;
+}
+
+.dropdown {
+  float: right;
+}
+
+.line-break {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 2px;
+  background-color: black;
+}
+
+.images {
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.images img {
+  margin-left: 100px;
+}
+
+/* blog */
+.Blog {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.desc {
+  text-align: left;
+  font-size: 30px;
+}
+
+.cart {
+  /* display: flex; */
+  float: right;
+  margin-right: 20px;
+}

@@ -1,0 +1,18 @@
+.research-row{
+    background-color: lightgray;
+}
+
+.research{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-bottom: 1px solid blue;
+}
+
+.MineHomePage{
+    font-size: 10px;
+}

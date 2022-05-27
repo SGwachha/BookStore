@@ -1,0 +1,68 @@
+.contact{
+    background-color: lightgray;
+    margin-top: -17px;
+}
+
+.desc{
+    font-size: 20px;
+}
+
+.two-col{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sm{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.form-field{
+  height: 20px;
+  flex: 0 0 200px;
+  margin-left: 50px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.form-desc{
+    display: flex;
+    justify-content: flex-start;
+    width: 460px;
+    margin-left: 45px;
+    margin-top: 20px; 
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 40px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 45px;
+}

@@ -1,0 +1,57 @@
+.body{
+    background-color: lightgray;
+    margin-top: -17px;
+}
+
+.content{
+    align-items: center;
+    margin-left: 155px;
+    margin-top: 10px;
+}
+
+.top-img{
+    margin-top: 10px;
+}
+
+.content .europe :hover{
+    text-decoration: underline;
+}
+
+.content .europe{
+    font-size: 30px;
+}
+
+.blog-desc:hover{
+    text-decoration: underline;
+}
+
+.blog-date:hover{
+    text-decoration: underline;
+}
+
+.blog-desc{
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.blog-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.blog-img{
+    align-items: center;
+    text-align: center;
+    padding: 0 0;
+    height: 600px;
+    margin-right: 20px;
+    width: 100%;
+    margin-left: 20px;
+}
